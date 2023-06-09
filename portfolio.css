@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alfa+Slab+One&family=Averia+Serif+Libre:wght@300&family=Cinzel&family=Cinzel+Decorative:wght@700;900&family=Dancing+Script:wght@700&family=Domine:wght@700&family=Mate+SC&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alfa+Slab+One&family=Averia+Serif+Libre:wght@300&family=Cinzel&family=Cinzel+Decorative:wght@700;900&family=Dancing+Script:wght@700&family=Domine:wght@700&family=Mate+SC&family=Roboto+Slab:wght@500&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alfa+Slab+One&family=Averia+Serif+Libre:wght@300&family=Cinzel&family=Cinzel+Decorative:wght@700;900&family=Dancing+Script:wght@700&family=Domine:wght@700&family=Mate+SC&family=Raleway&family=Roboto+Slab:wght@500&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alfa+Slab+One&family=Averia+Serif+Libre:wght@300&family=Cinzel&family=Cinzel+Decorative:wght@700;900&family=Cormorant+Garamond:wght@300&family=Dancing+Script:wght@700&family=Domine:wght@700&family=Mate+SC&family=Raleway&family=Roboto+Slab:wght@500&family=Shadows+Into+Light&display=swap');
+
+
+#q1 {
+    margin-top: -89px;
+}
+
+body{
+    margin: 0px;
+}
+#u1{
+    margin-top: 117px;
+    
+}
+
+#a1{
+    border: 2px rgba(255, 255, 255, 0.317);
+    width: 64%;
+    height: 330px;
+    margin-top: 202px;
+    margin-left: 185px;
+}
+#a2{
+    border: 2px rgba(255, 255, 255, 0.317);
+    width: 64%;
+    height: 330px;
+    margin-top: 100px;
+   margin-left: 185px;
+}
+
+#z1{
+    height: 600px;
+}
+
+@media (max-width: 990px){
+    #l1{
+        width: 100%;
+    }
+}
+
+#a1:hover{
+    transform: scale(1.03)
+}
+#a2:hover{
+    transform: scale(1.03)
+}
+
+.j1{
+    height: 100px;
+    width: 27%;
+    border-radius: 10px;
+    float:left;
+    margin-left: 33px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.d1{
+    background-color: brown;
+}
+.d2{
+    background-color: rgb(102, 148, 141);
+}
+.d3{
+    background-color: rgb(124, 169, 220);
+}
+
+.o1{
+    background-color: rgb(114, 86, 213);
+}
+.o2{
+    background-color: rgb(224, 62, 162);
+}
+.o3{
+    background-color: rgb(226, 230, 111);
+}
+
+#x1{
+    margin-top: -28px;
+}
+
+@media (max-width: 990px){
+    .j1{
+        width: 18%;
+        height: 65px;
+        
+    }
+}
+
+#g1{
+    color: rgba(255, 255, 255, 0.489);
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    padding:59px;
+    margin-top: -67px;
+    
+}
+#g2{
+    font-size: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.489);
+    padding: 94px;
+    margin-top: -87px;
+}
+
+@media (max-width: 990px){
+    #g1{
+        
+        font-size: 9px;
+        padding: 40px;
+        
+    }
+}
+
+@media (max-width: 990px){
+    #g2{
+        text-align: left;
+        font-size: 8px;
+        padding: 70px;
+        
+    }
+}
+
+#k2{
+    background-image: url(./imagesboot/bbb.jpeg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+#k1{
+    background-color:rgba(0, 0, 0, 0.555);
+    width: 100%;
+    height: 700px;
+    position: absolute;
+}
+
+.v1{
+    height: 283px;
+    width: 30%;
+    border-radius: 51px;
+    float:left;
+    margin-left: 33px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+@keyframes anim{
+    5%{
+        margin-top: 0px;
+    }
+    
+    0%{
+        margin-top: 50%;
+    }
+}
+
+#i1{
+    animation: anim 2000ms ease-in-out 0s
+}
+
+@keyframes slideleft{
+    5%{
+        margin-left: 0px;
+    }
+    
+    0%{
+        margin-left: 50%;
+    }
+}
+
+#j8{
+    animation: slideleft 20000ms ease-in-out 0s
+}
+#j9{
+    animation: slideright 20000ms ease-in-out 0s
+}
+
+@keyframes slideright{
+    5%{
+        margin-right: 0px;
+    }
+    
+    0%{
+        margin-right: 50%;
+    }
+}
+
+#m5{
+    animation: slider 20000ms ease-in-out 0s
+}
+
+@keyframes slider{
+    5%{
+        margin-left: 0px;
+    }
+    
+    0%{
+        margin-left: 50%;
+    }
+}
+
+@media (max-width: 990px){
+    .v1{
+        width: 25%;
+        height: 183px;
+        
+    }
+}
