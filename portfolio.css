@@ -8,98 +8,107 @@
     margin-top: -89px;
 }
 
-body{
+body {
     margin: 0px;
 }
-#u1{
+
+#u1 {
     margin-top: 117px;
-    
+
 }
 
-#a1{
+#a1 {
     border: 2px rgba(255, 255, 255, 0.317);
     width: 64%;
     height: 330px;
     margin-top: 202px;
     margin-left: 185px;
 }
-#a2{
+
+#a2 {
     border: 2px rgba(255, 255, 255, 0.317);
     width: 64%;
     height: 330px;
     margin-top: 100px;
-   margin-left: 185px;
+    margin-left: 185px;
 }
 
-#z1{
+#z1 {
     height: 600px;
 }
 
-@media (max-width: 990px){
-    #l1{
+@media (max-width: 990px) {
+    #l1 {
         width: 100%;
     }
 }
 
-#a1:hover{
-    transform: scale(1.03)
-}
-#a2:hover{
+#a1:hover {
     transform: scale(1.03)
 }
 
-.j1{
+#a2:hover {
+    transform: scale(1.03)
+}
+
+.j1 {
     height: 100px;
     width: 27%;
     border-radius: 10px;
-    float:left;
+    float: left;
     margin-left: 33px;
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
 }
-.d1{
+
+.d1 {
     background-color: brown;
 }
-.d2{
+
+.d2 {
     background-color: rgb(102, 148, 141);
 }
-.d3{
+
+.d3 {
     background-color: rgb(124, 169, 220);
 }
 
-.o1{
+.o1 {
     background-color: rgb(114, 86, 213);
 }
-.o2{
+
+.o2 {
     background-color: rgb(224, 62, 162);
 }
-.o3{
+
+.o3 {
     background-color: rgb(226, 230, 111);
 }
 
-#x1{
+#x1 {
     margin-top: -28px;
 }
 
-@media (max-width: 990px){
-    .j1{
+@media (max-width: 990px) {
+    .j1 {
         width: 18%;
         height: 65px;
-        
+
     }
 }
 
-#g1{
+#g1 {
     color: rgba(255, 255, 255, 0.489);
     text-align: center;
     font-family: 'Cinzel', serif;
     font-size: 14px;
-    padding:59px;
+    padding: 59px;
     margin-top: -67px;
-    
+
 }
-#g2{
+
+#g2 {
     font-size: 10px;
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
@@ -108,25 +117,26 @@ body{
     margin-top: -87px;
 }
 
-@media (max-width: 990px){
-    #g1{
-        
-        font-size: 9px;
+@media (max-width: 990px) {
+    #g1 {
+
+        font-size: 7px;
         padding: 40px;
-        
+
+
     }
 }
 
-@media (max-width: 990px){
-    #g2{
+@media (max-width: 990px) {
+    #g2 {
         text-align: left;
-        font-size: 8px;
+        font-size: 7px;
         padding: 70px;
-        
+
     }
 }
 
-#k2{
+#k2 {
     background-image: url(./imagesboot/bbb.jpeg);
     width: 100%;
     height: 700px;
@@ -135,84 +145,129 @@ body{
     background-size: cover;
 }
 
-#k1{
-    background-color:rgba(0, 0, 0, 0.555);
+#k1 {
+    background-color: rgba(0, 0, 0, 0.555);
     width: 100%;
     height: 700px;
     position: absolute;
 }
 
-.v1{
+.v1 {
     height: 283px;
     width: 30%;
     border-radius: 51px;
-    float:left;
+    float: left;
     margin-left: 33px;
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
-@keyframes anim{
-    5%{
+@keyframes anim {
+    5% {
         margin-top: 0px;
     }
-    
-    0%{
+
+    0% {
         margin-top: 50%;
     }
 }
 
-#i1{
+#i1 {
     animation: anim 2000ms ease-in-out 0s
 }
 
-@keyframes slideleft{
-    5%{
+@keyframes slideleft {
+    5% {
         margin-left: 0px;
     }
-    
-    0%{
+
+    0% {
         margin-left: 50%;
     }
 }
 
-#j8{
+#j8 {
     animation: slideleft 20000ms ease-in-out 0s
 }
-#j9{
+
+#j9 {
     animation: slideright 20000ms ease-in-out 0s
 }
 
-@keyframes slideright{
-    5%{
+@keyframes slideright {
+    5% {
         margin-right: 0px;
     }
-    
-    0%{
+
+    0% {
         margin-right: 50%;
     }
 }
 
-#m5{
-    animation: slider 20000ms ease-in-out 0s
+#m5:hover {
+    transform: translateX(150px);
 }
 
-@keyframes slider{
-    5%{
-        margin-left: 0px;
-    }
-    
-    0%{
-        margin-left: 50%;
-    }
-}
 
-@media (max-width: 990px){
-    .v1{
-        width: 25%;
+
+@media (max-width: 990px) {
+    .v1 {
+        width: 20%;
         height: 183px;
-        
+
+    }
+}
+
+#k9 {
+    color: rgba(255, 255, 255, 0.489);
+    font-family: 'Cinzel', serif;
+    font-size: 137px;
+    text-align: center;
+    height: 211px;
+    background-color: black;
+}
+
+@media (max-width: 990px) {
+    #k9 {
+        font-size: 80px;
+        height: 183px;
+
+    }
+}
+
+@media (max-width: 990px) {
+    #a1 {
+
+        margin-left: 80px;
+
+    }
+}
+
+@media (max-width: 990px) {
+    #a2 {
+
+        margin-left: 80px;
+
+    }
+}
+
+#h8 {
+    margin-left: 180px
+}
+
+@media (max-width: 990px) {
+    #h8 {
+
+        margin-left: 80px;
+
+    }
+}
+
+@media (max-width: 990px) {
+    #k2 {
+
+        background-size: cover;
     }
 }
